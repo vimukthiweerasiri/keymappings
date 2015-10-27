@@ -73,7 +73,7 @@
 
           <autogen>
             --KeyToKey-- 
-            KeyCode::SEMICOLON, ModifierFlag::COMMAND_L,
+            KeyCode::SEMICOLON, ModifierFlag::CONTROL_L,
             KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L
           </autogen>
           <autogen>
@@ -82,6 +82,28 @@
             KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L,
             KeyCode::RETURN
           </autogen>
+          <autogen>
+            --KeyToKey-- 
+            KeyCode::J, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_DOWN
+          </autogen>
+          <autogen>
+            --KeyToKey-- 
+            KeyCode::K, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_UP
+          </autogen>
+
+          <autogen>
+            --KeyToKey-- 
+            KeyCode::H, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_LEFT
+          </autogen>
+          <autogen>
+            --KeyToKey-- 
+            KeyCode::L, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_RIGHT
+          </autogen>
+
 
       </item>
 
