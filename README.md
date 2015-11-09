@@ -16,6 +16,14 @@
 | CTRL + H  | LEFT_ARRAY  |
 | CTRL + L  | RIGHT_ARRAY  |
 
+#### Single CMD or SHIFT
+| Shortcut  | Equals |
+| ------------- | ------------- |
+| LEFT SHIFT  | {  |
+| RIGHT SHIFT  | }  |
+| LEFT CMD  | (  |
+| RIGHT CMD  | )  |
+
 #### Misc
 | Shortcut  | details |
 | ------------- | ------------- |
