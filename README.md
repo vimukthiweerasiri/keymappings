@@ -1,5 +1,17 @@
 # Shortcuts everyehere
 
+## Install
+
+1. install [karabiner](https://pqrs.org/osx/karabiner/) first
+2. `rm -rf ~/Library/Application\ Support/Karabiner/`
+3. `git clone https://github.com/vimukthiweerasiri/keymappings.git ~/Library/Application\ Support/Karabiner/`
+4. Open karabiner preferences, in **change key** tab, click **reload xml**
+5. Then you will see a dropdown named **programer's stuff**, tick all 3 there and you are done.
+6. Additionally go to **Key Repeat** tab, in **key overlaid modifier**, change **timeout** to 150ms
+
+Enjoy !!! pull requests are welcome !!!
+
+## Shortcuts
 #### Parenthesis
 | Shortcut  | Output  | details |
 | :------------ |:--------------- | -----|
@@ -28,14 +40,3 @@
 | Shortcut  | details |
 | ------------- | ------------- |
 | CTRL + ;  | End of the line  |
-
-## Install
-
-1. install [karabiner](https://pqrs.org/osx/karabiner/) first
-2. `rm -rf ~/Library/Application\ Support/Karabiner/`
-3. `git clone https://github.com/vimukthiweerasiri/keymappings.git ~/Library/Application\ Support/Karabiner/`
-4. Open karabiner preferences, in **change key** tab, click **reload xml**
-5. Then you will see a dropdown named **programer's stuff**, tick all 3 there and you are done.
-6. Additionally go to **Key Repeat** tab, in **key overlaid modifier**, change **timeout** to 150ms
-
-Enjoy !!! pull requests are welcome !!!
