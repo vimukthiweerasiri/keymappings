@@ -1,25 +1,22 @@
 <?xml version="1.0"?>
+<!--
+  Author: Vimukthi Weerasiri <vimukthiweerasiri@gmail.com>              
+</-->
 <root>
     <item>
-      <name>Programmer's Shift Keys</name>
-
+      <name>Programmer's stuff</name>
       <item>
           <name>Parentheses ()</name>
           <identifier>private.shifts_to_parens</identifier>
-
           <autogen>
             --KeyOverlaidModifier-- 
             KeyCode::COMMAND_L, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::COMMAND_L,
             KeyCode::KEY_9, ModifierFlag::SHIFT_R
           </autogen>
-
           <autogen>
             --KeyOverlaidModifier-- 
             KeyCode::COMMAND_R, ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::COMMAND_R, KeyCode::KEY_0, ModifierFlag::SHIFT_L
-          </autogen>
-
-          
-
+          </autogen>        
           <autogen>
             --KeyToKey-- 
             KeyCode::COMMAND_R, ModifierFlag::COMMAND_L,
@@ -27,7 +24,6 @@
             KeyCode::KEY_0, ModifierFlag::SHIFT_L,
             KeyCode::CURSOR_LEFT
           </autogen>
-
           <autogen>
             --KeyToKey-- 
             KeyCode::COMMAND_L, ModifierFlag::COMMAND_R,
@@ -37,25 +33,20 @@
             KeyCode::CURSOR_LEFT,
             KeyCode::CURSOR_LEFT
           </autogen>
-
       </item>
-
       <item>
           <name>curlyBrackets {}</name>
           <identifier>private.command_to_curlybrackets</identifier>
-
           <autogen>
             --KeyOverlaidModifier-- 
             KeyCode::SHIFT_L, ModifierFlag::SHIFT_L | ModifierFlag::NONE, KeyCode::SHIFT_L,
             KeyCode::BRACKET_LEFT, ModifierFlag::SHIFT_L
           </autogen>
-
           <autogen>
             --KeyOverlaidModifier-- 
             KeyCode::SHIFT_R, ModifierFlag::SHIFT_R | ModifierFlag::NONE, KeyCode::SHIFT_R,
             KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L
           </autogen>
-
           <autogen>
             --KeyToKey-- 
             KeyCode::SHIFT_R, ModifierFlag::SHIFT_L,
@@ -64,13 +55,10 @@
             KeyCode::CURSOR_LEFT,
             KeyCode::RETURN
           </autogen>
-
       </item>
-
       <item>
           <name>navigation</name>
           <identifier>private.navigate_to_end</identifier>
-
           <autogen>
             --KeyToKey-- 
             KeyCode::SEMICOLON, ModifierFlag::CONTROL_L,
@@ -103,13 +91,6 @@
             KeyCode::L, ModifierFlag::CONTROL_L,
             KeyCode::CURSOR_RIGHT
           </autogen>
-
-
       </item>
-
-
-
-
-
   </item>
 </root>
