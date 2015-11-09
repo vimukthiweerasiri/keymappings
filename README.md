@@ -3,9 +3,9 @@
 #### Parenthesis
 | Shortcut  | Output  | details |
 | :------------ |:--------------- | -----|
-| Press left CMD while pressing right CMD      | () | gives () and brings curser to middle, useful when defining functions |
-| Press right CMD while pressing left CMD      | ();        |   gives (); and brings curser to middle, useful when calling functions|
-| Press rignt SHIFT while pressing left SHIFT | {}        |    gives curly braces with ENTER and brings the curser inside |
+| Press left CMD while pressing right CMD      | ( ) | gives () and brings curser to middle, useful when defining functions |
+| Press right CMD while pressing left CMD      | ( );        |   gives (); and brings curser to middle, useful when calling functions|
+| Press rignt SHIFT while pressing left SHIFT | { }        |    gives curly braces with ENTER and brings the curser inside |
 
 
 #### Navigation (like in VIM)
